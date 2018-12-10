@@ -6,14 +6,13 @@ using System.Web.Mvc;
 
 namespace ComicBookGallery.Controllers
 {
-    public class ComicBooksController : Controller
+    public class HomeController : Controller
     {
-
-        public ActionResult Detail()
+        // GET: Home
+        public ActionResult Index()
         {
-           
 
-            return View();
+            return Content("Home");
         }
     }
 }
